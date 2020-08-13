@@ -16,6 +16,7 @@ def get_japanese_emoticon(file_path, emoticon)
   load_library(file_path)
   old_data = YAML.load_file(file_path)
   emoticon_pair = old_data.values
+  emoticon_pair.map do |pair|
   if emoticon_pair == emoticon
     
 end
