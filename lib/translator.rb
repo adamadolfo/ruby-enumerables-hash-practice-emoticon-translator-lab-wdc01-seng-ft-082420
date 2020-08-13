@@ -29,7 +29,7 @@ def get_english_meaning(file_path, emoticon)
   load_library(file_path)
   old_data = YAML.load_file(file_path)
   emoticon_pair = old_data.values
-  emoticon_pair.map do |pair|
+  emoticon_pair.map do |meaning, pair|
   
 end
   
