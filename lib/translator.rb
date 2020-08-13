@@ -17,7 +17,7 @@ def get_japanese_emoticon(file_path, emoticon)
   old_data = YAML.load_file(file_path)
   emoticon_pair = old_data.values
   if emoticon_pair == emoticon
-    
+    binding.pry
   # code goes here
   
   
