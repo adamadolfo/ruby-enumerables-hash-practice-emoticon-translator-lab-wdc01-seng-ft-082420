@@ -32,6 +32,6 @@ def get_english_meaning(file_path, emoticon)
   emoticon_pair.map do |pair|
   
 end
-  binding.pry
+  
   
 end
