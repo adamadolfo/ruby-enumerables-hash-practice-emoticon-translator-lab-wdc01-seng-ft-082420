@@ -19,10 +19,8 @@ def get_japanese_emoticon(file_path, emoticon)
   emoticon_pair.map do |pair|
   if pair[0] == emoticon
     return pair[1]
-  else
-    puts "Sorry that is not an emoticon"
-  end
-    
+   end
+   puts "Sorry that is not an emoticon"
 end
    
   # code goes here
