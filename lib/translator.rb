@@ -33,7 +33,6 @@ def get_english_meaning(file_path, emoticon)
     if pair[1] = emoticon
       return meaning
   end
-  
 end
   
   
