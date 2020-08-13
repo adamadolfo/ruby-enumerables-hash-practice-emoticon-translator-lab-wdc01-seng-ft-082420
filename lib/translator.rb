@@ -21,7 +21,7 @@ def get_japanese_emoticon(file_path, emoticon)
     return pair[1]
    end
  end
-   puts "Sorry that is not an emoticon"
+   "Sorry that is not an emoticon"
 end
    
   # code goes here
