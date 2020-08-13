@@ -18,6 +18,8 @@ def get_japanese_emoticon(file_path, emoticon)
   emoticon_pair = old_data.values
   emoticon_pair.map do |pair|
   if pair[0] == emoticon
+    return emoticon_pair[1]
+  end
     
 end
    
